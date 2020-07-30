@@ -1,16 +1,15 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <router-link to="about">关于我</router-link>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'About',
   data () {
     return {
-      msg: '第一个脚手架测试'
+      msg: '关于我'
     }
   }
 }
